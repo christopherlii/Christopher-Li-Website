@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.1.0",
+    "description": "Regain your focus.",
+    "permissions": ["storage", "tabs"],
+    "host_permissions": ["https://youtube.com/*"],
+
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html"
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "default-src 'self'; style-src 'self' 'unsafe-inline'"
+     }
+}
