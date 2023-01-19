@@ -903,6 +903,7 @@ input[type=radio] {
 .sidebar header{
   margin-top: 10px;
   padding: 10px;
+  overflow: hidden;
 }
 
 img {
@@ -916,12 +917,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  overflow-y: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .sidebar header .logo-text{
   display: flex;
   justify-content: space-around;
-  overflow-y: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
   opacity: 0;
   transition: 0.5s ease;
 }
@@ -1012,7 +1015,8 @@ header .image-text .profession{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  overflow-y: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .menu-bar::-webkit-scrollbar{
