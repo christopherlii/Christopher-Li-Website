@@ -85,10 +85,6 @@ var ageDiff = Date.now() - lastupdated.getTime();
 var secondsLU = ageDiff / 1000;
 var daysLU = Math.trunc(secondsLU / 86400000);
 
-var daysAgo = document.getElementById("daysago");
-
-daysAgo.innerHTML = `${daysLU} days ago`
-
 
 var toggle = document.getElementById("toggle")
 const body = document.querySelector("body")
