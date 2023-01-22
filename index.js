@@ -1,3 +1,5 @@
+document.title="Christopher Li"
+
 const tiltEffectSettings = {
     max: 20, // max tilt rotation (degrees (deg))
     perspective: 1000, // transform perspective, the lower the more extreme the tilt gets (pixels (px))
