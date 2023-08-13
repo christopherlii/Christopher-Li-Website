@@ -16,6 +16,8 @@
   transition: 0.5s ease;
 }
 
+
+
 body {
     font-family: Helvetica, sans-serif;
     background-color: var(--body-color);
@@ -45,6 +47,8 @@ body.dark {
   --emph-color: #dbdbdb;
   transition: 0.5s ease;
 }
+
+
 
 #toggle {
   position: fixed;
@@ -1148,7 +1152,7 @@ header .image-text .profession{
 .code-icons {
   display: flex;
   justify-content: space-around;
-  margin-top: 1%;
+  margin-top: 5%;
   margin-bottom: 1%;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1162,14 +1166,14 @@ header .image-text .profession{
 }
 
 .lines {
-  height: 50%;
-  width: 50%;
-  border-right: 1px solid var(--emph-color);
+  height: 100%;
+  width: 100%;
 }
 
 .apps {
-  height: 50%;
-  width: 50%;
+ 
+  height: 100%;
+  width: 100%;
 }
 
 
